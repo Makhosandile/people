@@ -14,7 +14,7 @@ services:
          flask run "
    environment:
      - DB_HOST=db
-     - DB_NAME=app
+     - DB_NAME=wordcount_dev
      - DB_USER=postgres
      - DB_PASS=supersecretpassword
    depends_on:
